@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class
+END
+odsTableRow.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsTableRow.php
+END
+odsStyle.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsStyle.php
+END
+odsFontFace.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsFontFace.php
+END
+odsTableColumn.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsTableColumn.php
+END
+odsTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsTable.php
+END
+odsTableCell.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/servidores/!svn/ver/191/etiquetas-portatiles/trunk/ods/class/odsTableCell.php
+END
