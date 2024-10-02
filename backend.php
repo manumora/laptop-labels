@@ -23,7 +23,7 @@
 
 	$user="cn=".$_GET["userLDAP"].",ou=People,dc=instituto,dc=extremadura,dc=es";
 
-	$conex = ldap_connect("ldaps://".$_GET["hostLDAP"], 636);
+	$conex = ldap_connect("ldap://".$_GET["hostLDAP"], 389);
 	if (!$conex){
 		$responce->msg = "noConnect";
 		die(json_encode($responce)); 
@@ -34,7 +34,7 @@
 		die(json_encode($responce)); 
 	}
 
-   if (!@ldap_bind($conex, $user, $_GET["password"])){
+	if (!@ldap_bind($conex, $user, $_GET["password"])){
 		$responce->msg = "noPassword";
 		die(json_encode($responce)); 
 	}
