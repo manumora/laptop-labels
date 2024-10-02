@@ -29,7 +29,7 @@
 		// Conectamos con LDAP
 		$user="cn=".$_POST["userLDAP"].",ou=People,dc=instituto,dc=extremadura,dc=es";
 
-		$conex=ldap_connect("ldaps://".$_POST["hostLDAP"], 636) or die ("No ha sido posible conectarse al servidor<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
+		$conex=ldap_connect("ldap://".$_POST["hostLDAP"], 389) or die ("No ha sido posible conectarse al servidor<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
 		  
 		if (!@ldap_set_option($conex, LDAP_OPT_PROTOCOL_VERSION, 3))
 			 die("Falló la configuracion de protocolo version 3<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
@@ -203,7 +203,7 @@
 		// Conectamos con LDAP
 		$user="cn=".$_POST["userLDAP"].",ou=People,dc=instituto,dc=extremadura,dc=es";
 
-		$conex=ldap_connect("ldaps://".$_POST["hostLDAP"], 636) or die ("No ha sido posible conectarse al servidor<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
+		$conex=ldap_connect("ldap://".$_POST["hostLDAP"], 389) or die ("No ha sido posible conectarse al servidor<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
 		  
 		if (!@ldap_set_option($conex, LDAP_OPT_PROTOCOL_VERSION, 3))
 			 die("Falló la configuracion de protocolo version 3<br><br><input type='button' value='Volver' onClick='location.href=\"index.php\"'/>");
